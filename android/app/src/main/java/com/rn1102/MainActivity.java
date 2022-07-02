@@ -1,5 +1,8 @@
 package com.rn1102;
 
+import android.os.Bundle;
+import org.devio.rn.splashscreen.SplashScreen;
+
 import android.os.Build;
 import android.os.Bundle;
 
@@ -16,6 +19,7 @@ public class MainActivity extends ReactActivity {
     // coloring the background, status bar, and navigation bar.
     // This is required for expo-splash-screen.
     setTheme(R.style.AppTheme);
+    SplashScreen.show(this);
     super.onCreate(null);
   }
 

@@ -1,5 +1,5 @@
 package com.rn1102;
-
+import org.devio.rn.splashscreen.SplashScreenReactPackage;
 import android.app.Application;
 import android.content.Context;
 import android.content.res.Configuration;
